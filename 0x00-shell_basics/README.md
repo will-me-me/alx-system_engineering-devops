@@ -11,3 +11,5 @@ The 9-firstdirdeletion files has the command to delete a directory
 The 10-back file contains the command to go back to the previous directory
 The 11-lists list all files including the hidden ones in the current patha nad in the boot directory
 The 12-file_type file has the command for printing the type of the name file
+The 13-symbolic_link creates a symbolic link
+The 14-copy_html file has the script for copying the html files

@@ -9,4 +9,5 @@ The 7-movethatfile moving a file from one directory to another
 The 8-firstdelete file is for deleting a file
 The 9-firstdirdeletion files has the command to delete a directory
 The 10-back file contains the command to go back to the previous directory
-The 11-lists list all files including the hidden ones in the current patha nad in the boot directory 
+The 11-lists list all files including the hidden ones in the current patha nad in the boot directory
+The 12-file_type file has the command for printing the type of the name file

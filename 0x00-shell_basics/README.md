@@ -6,4 +6,6 @@ The 4-listmorefiles contains the command to display the current directory conten
 The 5-listfilesdigitonly display the content in long forma
 The 6-firstdirectory creating a new directory
 The 7-movethatfile moving a file from one directory to another
-The 8-firstdelete file is for deleting a file 
+The 8-firstdelete file is for deleting a file
+The 9-firstdirdeletion files has the command to delete a directory
+The 10-back file contains the command to go back to the previous directory 

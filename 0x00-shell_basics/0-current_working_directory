@@ -1,2 +1,2 @@
 #!/bin/bash
-my_current_path = $(pwd)
+$(pwd)

@@ -1,5 +1,3 @@
 #!/bin/bash
-
 my_current_path = $(pwd)
-
 echo "my current working directory is : $my_current_path

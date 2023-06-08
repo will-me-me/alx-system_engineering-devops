@@ -11,4 +11,5 @@ The 9-John_Doe script contain the command of giving he owner has read, write, an
 The 10-mirror_permissions set the mode of a given file to be the same
 The 11-directories_permissions givin all the permision to directories in a current directory
 The 12-directory_permissions creates a directory and gives it a 751 permission
-The 13-change_group script changes the the grp owner of the file 
+The 13-change_group script changes the the grp owner of the file
+The 100-change_owner_and_group script changes the owner to vinicent and the group owner to staff

@@ -13,3 +13,4 @@ The 11-directories_permissions givin all the permision to directories in a curre
 The 12-directory_permissions creates a directory and gives it a 751 permission
 The 13-change_group script changes the the grp owner of the file
 The 100-change_owner_and_group script changes the owner to vinicent and the group owner to staff
+The 101-symbolic_link_permissions script that changes the owner to "vincent" and the group owner to "staff" for the symbolic link file "_hello" in the working directory

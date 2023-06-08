@@ -4,4 +4,5 @@ The 2-groups file contain the script for displaying all the grps the user is par
 The 3-new_owner file has the script for changing the file ownership 
 The 4-empty file has the script for creating an empty file
 The 5-execute has the command for making a file excutable
-The 6-multiple_permissions file has the comaand for giving the user the grp user and other user the permision to read a file 
+The 6-multiple_permissions file has the comaand for giving the user the grp user and other user the permision to read a file
+The 7-everybody has the scriot for adding executional permision to the owner of the file grp and other owners 

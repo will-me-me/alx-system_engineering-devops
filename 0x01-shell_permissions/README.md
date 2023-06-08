@@ -8,4 +8,5 @@ The 6-multiple_permissions file has the comaand for giving the user the grp user
 The 7-everybody has the scriot for adding executional permision to the owner of the file grp and other owners
 The 8-James_Bond scrip sets the permission to only speciefied people
 The 9-John_Doe script contain the command of giving he owner has read, write, and execute permissions, the group has read and execute permissions, and others have write and execute permissions
-The 10-mirror_permissions set the mode of a given file to be the same 
+The 10-mirror_permissions set the mode of a given file to be the same
+The 11-directories_permissions givin all the permision to directories in a current directory 

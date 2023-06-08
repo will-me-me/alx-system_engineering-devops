@@ -6,4 +6,5 @@ The 4-empty file has the script for creating an empty file
 The 5-execute has the command for making a file excutable
 The 6-multiple_permissions file has the comaand for giving the user the grp user and other user the permision to read a file
 The 7-everybody has the scriot for adding executional permision to the owner of the file grp and other owners
-The 8-James_Bond scrip sets the permission to only speciefied people 
+The 8-James_Bond scrip sets the permission to only speciefied people
+The 9-John_Doe script contain the command of giving he owner has read, write, and execute permissions, the group has read and execute permissions, and others have write and execute permissions 

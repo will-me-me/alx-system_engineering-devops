@@ -3,4 +3,5 @@ The 1-who_am_i file contain the script for print the username of the current use
 The 2-groups file contain the script for displaying all the grps the user is part of 
 The 3-new_owner file has the script for changing the file ownership 
 The 4-empty file has the script for creating an empty file
-The 5-execute has the command for making a file excutable 
+The 5-execute has the command for making a file excutable
+The 6-multiple_permissions file has the comaand for giving the user the grp user and other user the permision to read a file 

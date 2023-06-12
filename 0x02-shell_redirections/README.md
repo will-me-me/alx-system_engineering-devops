@@ -15,3 +15,7 @@ The 13-unique print all the unique files in the given directory
 The 14-findthatword print all the line with a certain pertern in a file
 The 15-countthatword dispalys the number of lines containing a certain patter in a given directory
 The 16-whatsnext Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+The 17-hidethisword display all file in a directory that does not contain certain word
+The 18-letteronly display all line that starts with a letter
+The 19-AZ script replaces all character
+The 20-hiago file has the script to remove a letter from a given input 

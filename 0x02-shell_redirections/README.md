@@ -13,3 +13,4 @@ The 11-directories prints the total number of directories and sub directories in
 The 12-newest_files prints the newest 10 files in the current directory
 The 13-unique print all the unique files in the given directory
 The 14-findthatword print all the line with a certain pertern in a file
+The 15-countthatword dispalys the number of lines containing a certain patter in a given directory

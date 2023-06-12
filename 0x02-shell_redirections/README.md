@@ -14,3 +14,4 @@ The 12-newest_files prints the newest 10 files in the current directory
 The 13-unique print all the unique files in the given directory
 The 14-findthatword print all the line with a certain pertern in a file
 The 15-countthatword dispalys the number of lines containing a certain patter in a given directory
+The 16-whatsnext Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.

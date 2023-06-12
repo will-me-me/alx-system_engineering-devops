@@ -6,4 +6,5 @@ The 4-lastlines has the script for printing the last ten lines of a given file
 The 5-firstlines prints the the firts tens lines of a given file
 The 6-third_line displays the third line in a file
 The 7-file creates a file and add a new line
-The 8-cwd_state files that writes the results of a given command into a file 
+The 8-cwd_state files that writes the results of a given command into a file
+The 9-duplicate_last_line file duplicates the last line 

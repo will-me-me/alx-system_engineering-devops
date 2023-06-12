@@ -18,4 +18,6 @@ The 16-whatsnext Display lines containing the pattern “root” and 3 lines aft
 The 17-hidethisword display all file in a directory that does not contain certain word
 The 18-letteronly display all line that starts with a letter
 The 19-AZ script replaces all character
-The 20-hiago file has the script to remove a letter from a given input 
+The 20-hiago file has the script to remove a letter from a given input
+The 21-reverse reverses a given input
+The 22-users_and_homes displays all the users and their directorie 

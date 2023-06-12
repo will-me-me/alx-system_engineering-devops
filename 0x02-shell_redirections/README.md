@@ -9,3 +9,4 @@ The 7-file creates a file and add a new line
 The 8-cwd_state files that writes the results of a given command into a file
 The 9-duplicate_last_line file duplicates the last line
 the 10-no_more_js delete all the file with a .js extensions in a current directory
+The 11-directories prints the total number of directories and sub directories in a given folder

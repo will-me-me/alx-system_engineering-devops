@@ -21,4 +21,5 @@ The 19-AZ script replaces all character
 The 20-hiago file has the script to remove a letter from a given input
 The 21-reverse reverses a given input
 The 22-users_and_homes displays all the users and their directorie 
-The 100-empty_casks finds all empty files and directories in the current directory and all sub-directories. 
+The 100-empty_casks finds all empty files and directories in the current directory and all sub-directories.
+The 101-gifs file lists all the files with .hif extions in a given directory 

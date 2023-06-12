@@ -12,3 +12,4 @@ the 10-no_more_js delete all the file with a .js extensions in a current directo
 The 11-directories prints the total number of directories and sub directories in a given folder
 The 12-newest_files prints the newest 10 files in the current directory
 The 13-unique print all the unique files in the given directory
+The 14-findthatword print all the line with a certain pertern in a file

@@ -36,9 +36,10 @@ defaults
 frontend theproxy
         bind *:80
         bind *:443 ssl crt /etc/haproxy/certs/www.segunadeleke.tech.pem
+        redirect scheme https code 301 if !{ ssl_fc }
         default_backend my_backend_servers
 
 backend my_backend_servers
         balance roundrobin
-        server 425866-web-01 52.207.74.204
-        server 425866-web-02 54.208.15.5
+        server web1 52.207.74.204
+        server web2 54.208.15.5

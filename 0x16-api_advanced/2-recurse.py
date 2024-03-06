@@ -11,13 +11,13 @@ def recurse(subreddit, hot_list=[], after=None):
     """
     response = requests.get(
         f"https://www.reddit.com/r/{subreddit}/hot.json?limit=1&after={after}",
-        headers={"User-Agent": 'my bot 0.1'})
+        headers={"User-Agent": "my bot 0.1"},
+    )
     if response.status_code == 200:
         response_data = response.json()
-        if response_data['data']['after'] is not None:
-            hot_list.append(
-                response_data['data']['children'][0]['data']['title'])
-            recurse(subreddit, hot_list, after=response_data['data']['after'])
+        if response_data["data"]["after"] is not None:
+            hot_list.append(response_data["data"]["children"][0]["data"]["title"])
+            recurse(subreddit, hot_list, after=response_data["data"]["after"])
         return hot_list
     else:
         return None

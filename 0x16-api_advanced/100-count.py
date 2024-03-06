@@ -4,13 +4,7 @@
 import requests
 
 
-def count_words(
-        subreddit,
-        word_list,
-        hot_list=[],
-        after=None,
-        word_count={},
-        i=0):
+def count_words(subreddit, word_list, hot_list=[], after=None, word_count={}, i=0):
     """
     Queries the Reddit API, parses the title of all hot articles,
     and prints a sorted count of given keywords (case-insensitive,
@@ -29,14 +23,13 @@ def count_words(
             word_count[word.lower()] = 0
 
     response = requests.get(
-        url,
-        headers={'User-Agent': 'Mozilla/5.0'},
-        allow_redirects=False)
+        url, headers={"User-Agent": "Mozilla/5.0"}, allow_redirects=False
+    )
 
     if response.status_code == 200:
         data = response.json()
-        posts = data['data']['children']
-        after = data['data']['after']
+        posts = data["data"]["children"]
+        after = data["data"]["after"]
         i = 1
 
         for post in posts:
@@ -46,19 +39,10 @@ def count_words(
             hot_list.append(post["data"]["title"])
 
         if after:
-            return count_words(
-                subreddit,
-                word_list,
-                hot_list,
-                after,
-                word_count,
-                i)
+            return count_words(subreddit, word_list, hot_list, after, word_count, i)
         else:
             # Sorting the results
-            sorted_word_count = sorted(
-                word_count.items(),
-                key=lambda x: (-x[1],
-                               x[0]))
+            sorted_word_count = sorted(word_count.items(), key=lambda x: (-x[1], x[0]))
             for word, count in sorted_word_count:
                 print(f"{word}: {count}")
 
